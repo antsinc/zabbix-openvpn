@@ -9,8 +9,8 @@
     </groups>
     <templates>
         <template>
-            <template>Template App OpenVPN</template>
-            <name>Template App OpenVPN</name>
+            <template>Template App OpenVPN AccessServer</template>
+            <name>Template App OpenVPN AccessServer</name>
             <description/>
             <groups>
                 <group>
@@ -262,7 +262,7 @@
                                     <calc_fnc>2</calc_fnc>
                                     <type>0</type>
                                     <item>
-                                        <host>Template App OpenVPN</host>
+                                        <host>Template App OpenVPN AccessServer</host>
                                         <key>user_byte_received.openvpn[{#VPNUSER}]</key>
                                     </item>
                                 </graph_item>
@@ -274,7 +274,7 @@
                                     <calc_fnc>2</calc_fnc>
                                     <type>0</type>
                                     <item>
-                                        <host>Template App OpenVPN</host>
+                                        <host>Template App OpenVPN AccessServer</host>
                                         <key>user_byte_sent.openvpn[{#VPNUSER}]</key>
                                     </item>
                                 </graph_item>
@@ -306,7 +306,7 @@
                                     <calc_fnc>2</calc_fnc>
                                     <type>0</type>
                                     <item>
-                                        <host>Template App OpenVPN</host>
+                                        <host>Template App OpenVPN AccessServer</host>
                                         <key>user_status.openvpn[{#VPNUSER}]</key>
                                     </item>
                                 </graph_item>
@@ -341,7 +341,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <key>num_user.openvpn</key>
-                                <host>Template App OpenVPN</host>
+                                <host>Template App OpenVPN AccessServer</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -363,7 +363,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>OpenVPN Status {#VPNUSER}</name>
-                                <host>Template App OpenVPN</host>
+                                <host>Template App OpenVPN AccessServer</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>

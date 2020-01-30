@@ -1,8 +1,6 @@
 #!/bin/bash
 
-path=/etc/openvpn/ccd # path to certificate directory
-
-users=`ls -F $path | sed 's/\///g'` # array of certificate name
+users=`sudo -u root /etc/zabbix/scripts/vpn_clients.sh`
 
 echo "{"
 echo "\"data\":["
